@@ -75,6 +75,10 @@ $(window).on('load', function() {
   openPage(1);
 });
 
+$(window).on('load', function() {
+  $('#bg-video').trigger('play');
+});
+
 jQuery(function() {
     $('.tm-page-link').on('click', function(){
       var pageNo = $(this).data('page-no');
